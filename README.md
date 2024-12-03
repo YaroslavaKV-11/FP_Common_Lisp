@@ -218,9 +218,9 @@ A
       ```
 2.
       ```lisp
-      (list 'A part_of_list 'C part_of_list)
+      (list 'A (cons 'B (car (last part_of_list))) 'C part_of_list)
       ```
       Результат виконання:
       ```lisp
-      (A (B 1) C (B 1))
+      (A (B . 1) C (B 1))
       ```
