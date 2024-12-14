@@ -84,14 +84,14 @@ NIL
           name))
 
 (defun test-selection-sorting-2 ()
-  (check-selection-sorting-2 "test 1" '(15 2 9 6 3 0) '(0 2 3 6 9 15)) ; Тест для змішаного списку
-  (check-selection-sorting-2 "test 2" '(-10 -20 -5 -1 0 5 3) '(-20 -10 -5 -1 0 3 5)) ; Тест для списку з від'ємними числами
-  (check-selection-sorting-2 "test 3" '(99 99 99 99) '(99 99 99 99)) ; Тест для списку з однаковими елементами
-  (check-selection-sorting-2 "test 4" '(3.5 2.2 1.1 4.6) '(1.1 2.2 3.5 4.6)) ; Тест для списку з дробовими числами
-  (check-selection-sorting-2 "test 5" '(42) '(42)) ; Тест для списку з одним елементом
-  (check-selection-sorting-2 "test 6" '(10 20 30 40) '(10 20 30 40)) ; Тест для вже відсортованого списку
-  (check-selection-sorting-2 "test 7" '(50 40 30 20 10) '(10 20 30 40 50)) ; Тест для списку у зворотному порядку
-  (check-selection-sorting-2 "test 8" nil nil)) ; Тест для порожнього списку
+  (check-selection-sorting-2 "test 1" '(15 2 9 6 3 0) '(0 2 3 6 9 15)) 
+  (check-selection-sorting-2 "test 2" '(-10 -20 -5 -1 0 5 3) '(-20 -10 -5 -1 0 3 5)) 
+  (check-selection-sorting-2 "test 3" '(99 99 99 99) '(99 99 99 99)) 
+  (check-selection-sorting-2 "test 4" '(3.5 2.2 1.1 4.6) '(1.1 2.2 3.5 4.6)) 
+  (check-selection-sorting-2 "test 5" '(42) '(42)) 
+  (check-selection-sorting-2 "test 6" '(10 20 30 40) '(10 20 30 40)) 
+  (check-selection-sorting-2 "test 7" '(50 40 30 20 10) '(10 20 30 40 50)) 
+  (check-selection-sorting-2 "test 8" nil nil)) 
 ```
 ### Тестування
 ```lisp
